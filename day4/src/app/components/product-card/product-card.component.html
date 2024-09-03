@@ -1,0 +1,19 @@
+<div class="card">
+  <div class="card-body">
+    <p>Name :{{ myProduct?.name }}</p>
+    <h5>Price :{{ myProduct?.price }} EGP</h5>
+    @if (previousValue) {
+      <p class="text-danger">Before Discount :<del> {{ previousValue }} EGP </del></p>
+      }
+    <p>Quantity : {{ myProduct?.quantity }}</p>
+    <div class="d-flex">
+      <button (click)="discount()" class="btn btn-danger mb-2 me-3">
+        Discount
+      </button>
+      <button class="btn btn-dark mb-2" (click)="removeProduct(myProduct?.id)">
+        Remove 
+      </button>
+      
+    </div>
+  </div>
+</div>

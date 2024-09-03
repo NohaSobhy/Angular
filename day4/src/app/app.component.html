@@ -1,0 +1,13 @@
+<app-navbar (componentChange)="displayComponent($event)"></app-navbar>
+
+@if(selectedComponent === 'home'){
+<app-home></app-home>
+}
+
+@if(selectedComponent === 'login'){
+<app-login (myEvent)="getData($event)"></app-login>
+}
+
+@if(selectedComponent === 'products'){
+<app-products></app-products>
+}
