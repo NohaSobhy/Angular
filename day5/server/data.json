@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Novel",
+      "price": 99.99,
+      "quantity": 200
+    },
+    {
+      "id": "2",
+      "name": "Wireless Mouse",
+      "price": "80.50",
+      "quantity": "40"
+    },
+    {
+      "id": "3",
+      "name": "Mechanical Keyboard",
+      "price": 49.99,
+      "quantity": 75
+    },
+    {
+      "id": "4",
+      "name": "Smartphone Pro",
+      "price": "500",
+      "quantity": 20
+    },
+    {
+      "id": "5",
+      "name": "Gaming Laptop",
+      "price": 1200.00,
+      "quantity": 15
+    },
+    {
+      "id": "6",
+      "name": "Portable Tablet",
+      "price": 299.99,
+      "quantity": "30"
+    },
+    {
+      "id": "7",
+      "name": "Fast Charger",
+      "price": 19.99,
+      "quantity": 100
+    },
+    {
+      "id": "8",
+      "name": "Noise Cancelling Headphones",
+      "price": "150.75",
+      "quantity": 50
+    },
+    {
+      "id": "9",
+      "name": "Smart Fitness Watch",
+      "price": 249.99,
+      "quantity": 25
+    },
+    {
+      "id": "10",
+      "name": "DSLR Camera",
+      "price": 599.99,
+      "quantity": 10
+    }
+  ]
+}

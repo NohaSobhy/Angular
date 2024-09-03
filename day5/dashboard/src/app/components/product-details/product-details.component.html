@@ -1,0 +1,19 @@
+<div class="bg-dark p-5 text-light">
+  <div class="container">
+    <h1>Product Details</h1>
+    <p class="lead mt-3">Product Id : {{ product?.id }}</p>
+    <p class="lead mt-3">Product Name : {{ product?.name }}</p>
+    <p class="lead mt-3">Product Price : {{ product?.price }}</p>
+    <p class="lead mt-3">Product Quantity :{{ product.quantity }}</p>
+    <p>
+      <i class="text-warning bi-star-fill"></i>
+      <i class="text-warning bi-star-fill"></i>
+      <i class="text-warning bi-star-fill"></i>
+      <i class="text-warning bi-star-fill"></i>
+      <i class="text-warning bi-star-fill"></i>
+    </p>
+    <button [routerLink]="['/products']" class="btn btn-outline-info">
+      Back to Products
+    </button>
+  </div>
+</div>
